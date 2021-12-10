@@ -1,0 +1,54 @@
+.sideBar{
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+.sidebar_top_header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+
+}
+.right_header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    min-width: 10vw;
+    text-align: center;
+}
+.right_header > .MuiSvgIcon-root{
+    margin-right: 40px !important;
+}
+.input_box{
+    display: flex;
+    height: 39px;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.input_container{
+    display: flex;
+    height: 35px;
+    padding: 5px 10px ;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.input_container >input{
+    border: none;
+    margin-left: 30px;
+}
+.input_container > .MuiSvgIcon-root{
+    color: grey;
+
+}
+.chat_box{
+    flex: 1;
+    background-color:#fff;
+    overflow: scroll;
+    margin-top: 10px;
+   
+   
+}

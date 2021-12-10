@@ -1,0 +1,27 @@
+.sidebar_chats{
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #f6f6f6;
+    cursor: pointer;
+   
+}
+.sidebar_chats:hover{
+    background-color:#ebebeb;
+}
+.sidebar_chat_info{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;  
+    text-align: center;
+   
+}
+.sidebar_chat_info > h4{
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.avtar_icon{
+    padding-top: 50px;
+    padding-left: 20px;
+}
